@@ -1,6 +1,6 @@
 export const mailProviderOptions = [
-  { label: 'Moemail', value: 'moemail' },
   { label: 'DuckMail', value: 'duckmail' },
+  { label: 'Moemail', value: 'moemail' },
   { label: 'Freemail', value: 'freemail' },
   { label: 'GPTMail', value: 'gptmail' },
   { label: 'Cloudflare Mail', value: 'cfmail' },
@@ -8,4 +8,4 @@ export const mailProviderOptions = [
 
 export type TempMailProvider = typeof mailProviderOptions[number]['value']
 
-export const defaultMailProvider: TempMailProvider = 'moemail'
+export const defaultMailProvider: TempMailProvider = 'duckmail'
